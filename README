@@ -1,0 +1,35 @@
+--------------------------------------
+--------------------------------------
+        Sebastian Samoilescu
+            GRUPA 315CA
+            TEMA 03 PC
+--------------------------------------
+--------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------
+ElfUnknown's - Glacierfight
+----------------------------------------------------------------------------------------------------------------------------------
+
+---> Pentru a salva informatiile legate de o celula a ghetarului folosesc
+     o structura 'cell_t';
+
+---> Pentru a salva informatiile legate de un elf folosesc o structura
+     'elf_t';
+
+---> Atat harta ghetarului cat si lista de alfi au fost alocate dinamic;
+
+---> Comenzile se citesc linie cu linie, urmand ca stringul in care e
+     salvata informatia sa fie partionat pe parcusul executarii;
+
+---> Pentru a executa una dintre cel 4 comenzi existente in cadrul
+     jocului, codific numele functiilor cu cifre de la 1 la 4;
+
+---> In afisarea SCOREBOARD -ului nu sortez efectiv lista
+     elfiilor, ci o lista cu indicii elfiilor;
+
+---> Pe tot parcurul jocului retin numarul de elfi prezenti pe ghetar.
+     Cand acest numar atinge valoare 1, afisez castigatorul si marchez
+     sfarsitul jocului;
+
+---> Pentru a afla urmatoarea pozitie a elfului am folosit o functie
+     care decodifica caracterele('U', 'D', 'L', 'R') in coordonate in plan.
